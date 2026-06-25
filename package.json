@@ -1,0 +1,15 @@
+{
+  "name": "forensicore-xdr-forensics-workbench",
+  "version": "1.0.0",
+  "description": "Commercial Forensic Investigation Workspace",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install --prefix apps/api && npm install --prefix apps/web",
+    "dev:api": "npm run dev --prefix apps/api",
+    "dev:web": "npm run dev --prefix apps/web",
+    "dev": "npx concurrently -n \"API,WEB\" -c \"blue,green\" \"npm run dev:api\" \"npm run dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

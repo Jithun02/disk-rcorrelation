@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+dist/
+build/
+.npm
+npm-debug.log
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+
+# Large Forensic Evidence & Databases (Avoid pushing 500MB images)
+data/*.mem
+data/*.001
+data/*.img
+data/*.dd
+data/*.raw
+data/forensic_workbench.db
+data/temp_rules.yar
+result/live_demo_report.json

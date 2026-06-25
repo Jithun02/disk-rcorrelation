@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-slate-100;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080c14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f293d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Interactive animations and glassmorphism helpers */
+.glass-panel {
+  background: rgba(15, 22, 36, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(31, 41, 61, 0.6);
+}
+
+.table-header {
+  @apply bg-background/80 backdrop-blur-sm sticky top-0 border-b border-borderDark text-xs font-semibold text-slate-400 uppercase tracking-wider;
+}
+
+.mono-text {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
