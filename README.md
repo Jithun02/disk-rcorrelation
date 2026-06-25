@@ -2,9 +2,9 @@
 
 A professional, full-stack digital forensics and incident response (DFIR) workstation platform. ForensiCore correlates host memory dumps, SleuthKit disk image volumes, registry hives, network sockets, event logs, browser logs, and custom YARA rules into a single visual investigation interface.
 
-![ForensiCore XDR Dashboard](docs/dashboard.png)
-
----
+[![ForensiCore XDR Dashboard](docs/dashboard.png)
+](https://jithun02.github.io/disk-rcorrelation/)
+---https://jithun02.github.io/disk-rcorrelation/
 
 ## Key Capabilities
 
